@@ -1,0 +1,16 @@
+@import "packages/simple_dart_blue_theme/styles/blue_theme.css";
+
+
+
+.ExamplePanel {
+    background: rgba(0,0,0,0.25);
+}
+
+.PanelProps {
+    background: rgba(0,0,0,0.25);
+    border-radius: 10px;
+}
+
+.DialogExample {
+ background:black;
+}

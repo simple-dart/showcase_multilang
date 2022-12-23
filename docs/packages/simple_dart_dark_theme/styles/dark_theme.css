@@ -1,0 +1,273 @@
+/* Default widgets theme */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: Ubuntu, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background: #2B2B2B;
+    color: #fff;
+}
+
+a {
+    color: #92b1e5;
+    text-decoration: none;
+}
+
+select {
+    box-sizing: border-box;
+    font: inherit;
+    background-color: rgba(255, 255, 255, 0.25);;
+    border: 1px solid transparent;
+    color: inherit;
+}
+
+select:focus {
+    border: 1px solid #f0f0f0;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+input {
+    box-sizing: border-box;
+    font: inherit;
+    background-color: rgba(255, 255, 255, 0.25);;
+    border: 1px solid transparent;
+    color: inherit;
+}
+
+input:focus {
+    border: 1px solid #f0f0f0;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+input[type="file"] {
+    border: none;
+}
+
+option {
+    box-sizing: border-box;
+    font: inherit;
+    background-color: rgba(255, 255, 255, 0.25);;
+    color: inherit;
+}
+
+textarea {
+    box-sizing: border-box;
+    font: inherit;
+    resize: none;
+    background-color: rgba(255, 255, 255, 0.25);;
+    border: 1px solid transparent;
+    color: inherit;
+}
+
+textarea:focus {
+    border: 1px solid #f0f0f0;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.Button {
+    cursor: pointer;
+    background-color: rgb(86, 71, 205);
+    border: 0px;
+    border-radius: 16px;
+    color: #f0f0f0;
+    padding: 3px 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.Button.Active {
+    background: #555;
+}
+
+.Button:hover {
+    background: #CCC;
+}
+
+.Button.Disabled {
+    background: #9b9b9b;
+    color: #f0f0f0;
+    cursor: default;
+}
+
+.Link.Disabled {
+    pointer-events: none;
+    cursor: default;
+}
+
+.ImageButton {
+  cursor: pointer;
+  background-color: rgb(169, 184, 50);
+  border: 0px;
+  border-radius: 16px;
+  color: #f0f0f0;
+  padding: 3px 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  filter: invert(100%);
+}
+
+.ImageButton:hover {
+  background: #2e55b4;
+}
+
+.ImageButton.Disabled {
+  background: #9b9b9b;
+  color: #f0f0f0;
+  cursor: default;
+}
+
+.ListFieldRow > .RemoveButton {
+    filter:invert(0%);
+    background: transparent;
+    padding: 0px;
+}
+
+.ListFieldRow > .RemoveButton.Disabled {
+    filter:saturate(30%);
+}
+
+.TabTag {
+    cursor: pointer;
+    color: #777;
+    padding: 5px 10px;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+}
+
+.TabTag.Active {
+    cursor: pointer;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid #fff;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.DialogWindow {
+    position: fixed;
+}
+
+.TableHeaderPanel {
+    font-weight: 500;
+}
+
+.TableHeadersRow {
+    background: lavender;
+}
+
+.TableCopyButton {
+    background: transparent;
+    color: #999;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.TableCopyButton:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+.HeadedDialog {
+    border-radius: 10px;
+    background-color: #3c3f3c;
+    box-shadow: rgb(32 12 71 / 32%) 0px 0px 32px;
+}
+
+.HeadedDialogHeader {
+    font-weight: 500;
+    color: #fff;
+}
+
+.ContextMenu {
+    position: absolute;
+    display: flex;
+    background: #fff;
+    padding: 5px;
+    opacity: 1;
+    cursor: pointer;
+    color: #000;
+}
+
+
+.ContextMenuAction {
+    color: #000;
+}
+
+.ContextMenuAction:hover {
+    color: #fff;
+    background-color: #555;
+}
+
+.TableRow.Header {
+    background-color: rgba(0, 0, 0, 0.35);
+    padding: 4px 0px;
+}
+
+
+.Sortable {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.Sorted:after {
+  content: ' ▲';
+}
+
+ .SortedDesc:after {
+   content: ' ▼';
+ }
+
+.ChartWidget {
+    color: #fff;
+    font-size: 10px;
+}
+
+.HeadedPanelHeader {
+    font-weight: 500;
+}
+
+.HeadedPanel {
+    border-radius: 10px;
+    background-color: #3c3f3c;
+    box-shadow: rgb(32 12 71 / 32%) 0px 0px 32px;
+}
+
+.NavBar {
+    background: #202124;
+    color: #fff;
+    padding: 5px;
+    box-shadow: rgb(32 12 71 / 32%) 0px 0px 32px;
+}
+
+.NavBarButton {
+    color:#f0f0f0;
+    text-decoration: none;
+}
+
+.NavBarButton.Active {
+    color: rgb(241, 195, 117);
+}
+
+.PathBar{
+    background: #202124;
+    color:  #f0f0f0;
+    font-weight: 500;
+}
+
+.PathBarButton{
+    color:  #f0f0f0;
+    text-decoration: none;
+}
+
+.MainWindowHomeLink {
+    text-decoration: none;
+}

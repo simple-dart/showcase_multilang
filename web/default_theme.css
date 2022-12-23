@@ -1,0 +1,17 @@
+@import "packages/simple_dart_default_theme/styles/default_theme.css";
+
+.SimplePathPanel > .SimpleLabel {
+    color: inherit;
+}
+
+.ExamplePanel {
+    border: 1px solid black;
+}
+
+.PanelProps {
+    border: 1px solid black;
+}
+
+.DialogExample {
+    background: white;
+}

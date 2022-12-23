@@ -1,0 +1,312 @@
+/* Default widgets theme */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;600;700;800;900&display=swap');
+
+
+:root {
+  --primary-font-color: #000000;
+  --secondary-font-color: #555555;
+  --disabled-font-color: #777777;
+
+  --button-font-color: #f0f0f0;
+  --button-color: #5647cd;
+  --button-color-disabled: #9b9b9b;
+  --button-color-hover: #a9b832;
+  --button-color-inverted: #a9b832;
+
+  --field-border-color: #d0cbf6;
+  --filed-border-focus-color: #134ea1;
+  --field-border-radius: 8px;
+  --button-border-radius: 16px;
+
+  --primary-panel-color: #f0f0f0;
+  --secondary-panel-color: #d1d1d1;
+  --third-panel-color: #b8b8b8;
+
+  --menu-focus-color: #b3d7ff;
+}
+
+body {
+  font-family: Ubuntu, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  background: var(--primary-panel-color);
+  color: var(--primary-font-color);
+}
+
+a {
+  color: var(--filed-border-focus-color);
+  text-decoration: none;
+}
+
+select {
+  border-radius: var(--field-border-radius);
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid var(--field-border-color);
+  padding: 2px;
+}
+
+select:focus {
+    border: 1px solid var(--filed-border-focus-color);
+}
+
+input {
+  border-radius: var(--field-border-radius);
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid var(--field-border-color);
+  padding: 2px;
+}
+
+input:focus {
+    border: 1px solid var(--filed-border-focus-color);
+}
+
+input[type="file"] {
+    border: none;
+}
+
+textarea {
+  border-radius: var(--field-border-radius);
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid var(--field-border-color);
+  padding: 2px;
+}
+
+textarea:focus {
+    border: 1px solid var(--filed-border-focus-color);
+}
+
+.Button {
+  cursor: pointer;
+  background-color: var(--button-color);
+  border: 0px;
+  border-radius: var(--button-border-radius);
+  color: var(--button-font-color);
+  padding: 3px 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.Button.Active {
+  background: var(--button-color-inverted);
+}
+
+.Button:hover {
+  background: var(--button-color-hover);
+}
+
+.Button.Disabled {
+  background: var(--button-color-disabled);
+  color: var(--button-font-color);
+  cursor: default;
+}
+
+.Link.Disabled {
+  pointer-events: none;
+  cursor: default;
+  color: var(--disabled-font-color);
+}
+
+.Link.Active {
+  color: var(--button-color-inverted);
+}
+
+.Link.Active.Disabled {
+  color: var(--disabled-font-color);
+}
+
+.Label.Disabled {
+  pointer-events: none;
+  cursor: default;
+  color: var(--disabled-font-color);
+}
+
+.ImageButton {
+  cursor: pointer;
+  background-color: var(--button-color-inverted);
+  border: 0px;
+  border-radius: var(--button-border-radius);
+  padding: 3px 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  filter: invert(100%);
+}
+
+.ImageButton:hover {
+  background: var(--button-color);
+}
+
+.ImageButton.Disabled {
+  background: var(--button-color-disabled);
+  cursor: default;
+}
+
+
+.ListFieldRow > .RemoveButton {
+    filter:invert(0%);
+    background: transparent;
+    padding: 0px;
+}
+
+.ListFieldRow > .RemoveButton.Disabled {
+    filter:saturate(30%);
+}
+
+.TabTag {
+  cursor: pointer;
+  color: var(--disabled-font-color);
+  padding: 5px 10px;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+}
+
+.TabTag.Active {
+  cursor: pointer;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid var(--primary-font-color);
+  color: var(--primary-font-color);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.DialogWindow {
+  position: fixed;
+}
+
+
+.HeadedDialog {
+  border-radius: var(--field-border-radius);
+  background-color: var(--primary-panel-color);
+  box-shadow: rgb(32 12 71 / 32%) 0px 0px 32px;
+}
+
+.HeadedDialogHeader{
+  color: var(--secondary-font-color);
+  background: var(--third-panel-color);
+  font-weight: 500;
+}
+
+.HeadedDialogBody{
+  color: var(--primary-font-color);
+  background: var(--primary-panel-color);
+}
+
+.ContextMenu {
+  position: absolute;
+  display: flex;
+  background: var(--primary-panel-color);
+  padding: 5px;
+  opacity: 1;
+  cursor: pointer;
+}
+
+
+.ContextMenuAction {
+  color: var(--primary-font-color);
+}
+
+.ContextMenuAction:hover {
+  color: var(--button-font-color);
+  background-color: var(--button-color);
+}
+
+.TableCell {
+    padding: 2px;
+}
+
+.TableRow.Header {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.TableCopyButton {
+  background: transparent;
+  color: var(--disabled-font-color);
+  padding: 5px;
+  cursor: pointer;
+}
+
+.TableCopyButton:hover {
+  text-decoration: underline;
+  color: var(--primary-font-color);
+  background: transparent;
+}
+
+.Sortable {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.Sorted:after {
+  content: ' ▲';
+}
+
+ .SortedDesc:after {
+   content: ' ▼';
+ }
+
+.ChartWidget {
+  color: var(--primary-font-color);
+  font-size: 10px;
+}
+
+.HeadedPanelHeader{
+  color: var(--secondary-font-color);
+  background: var(--third-panel-color);
+  font-weight: 500;
+}
+
+.HeadedPanel {
+  border-radius: var(--field-border-radius);
+  background-color: var(--primary-panel-color);
+  box-shadow: rgb(32 12 71 / 32%) 0px 0px 32px;
+}
+
+.NavBar {
+    background: var(--secondary-panel-color);
+    color: var(--primary-font-color);
+    box-shadow: rgb(32 12 71 / 32%) 0px 0px 32px;
+}
+
+.NavBarButton {
+    color: var(--primary-font-color);
+    text-decoration: none;
+}
+
+.NavBarButton:hover {
+    color: var(--button-color-inverted);
+    text-decoration: none;
+}
+
+.NavBarButton.Active {
+    color: var(--button-color);
+}
+
+.NavBarButton.Active:hover {
+    color: var(--button-color-inverted);
+}
+
+.PathBar{
+    background: var(--secondary-panel-color);
+    color:  var(--primary-font-color);
+    font-weight: 500;
+    box-shadow: rgb(32 12 71 / 32%) 0px 0px 32px;
+}
+
+.PathBarButton{
+    color:  var(--primary-font-color);
+    text-decoration: none;
+}
+
+.NavBarBottomPanel {
+    background: var(--third-panel-color);
+    color:  var(--secondary-font-color);
+}
+
+.MainWindowHomeLink {
+    color: var(--secondary-font-color);
+    text-decoration: none;
+    background: var(--third-panel-color);
+}

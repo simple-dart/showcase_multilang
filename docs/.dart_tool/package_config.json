@@ -1,0 +1,602 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "_fe_analyzer_shared",
+      "rootUri": "../packages/_fe_analyzer_shared",
+      "packageUri": "",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "analyzer",
+      "rootUri": "../packages/analyzer",
+      "packageUri": "",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "archive",
+      "rootUri": "../packages/archive",
+      "packageUri": "",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "args",
+      "rootUri": "../packages/args",
+      "packageUri": "",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "async",
+      "rootUri": "../packages/async",
+      "packageUri": "",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "bazel_worker",
+      "rootUri": "../packages/bazel_worker",
+      "packageUri": "",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "build",
+      "rootUri": "../packages/build",
+      "packageUri": "",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "build_config",
+      "rootUri": "../packages/build_config",
+      "packageUri": "",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "build_daemon",
+      "rootUri": "../packages/build_daemon",
+      "packageUri": "",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "build_modules",
+      "rootUri": "../packages/build_modules",
+      "packageUri": "",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "build_resolvers",
+      "rootUri": "../packages/build_resolvers",
+      "packageUri": "",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "build_runner",
+      "rootUri": "../packages/build_runner",
+      "packageUri": "",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "build_runner_core",
+      "rootUri": "../packages/build_runner_core",
+      "packageUri": "",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "build_web_compilers",
+      "rootUri": "../packages/build_web_compilers",
+      "packageUri": "",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "built_collection",
+      "rootUri": "../packages/built_collection",
+      "packageUri": "",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "built_value",
+      "rootUri": "../packages/built_value",
+      "packageUri": "",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "checked_yaml",
+      "rootUri": "../packages/checked_yaml",
+      "packageUri": "",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "code_builder",
+      "rootUri": "../packages/code_builder",
+      "packageUri": "",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "collection",
+      "rootUri": "../packages/collection",
+      "packageUri": "",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "convert",
+      "rootUri": "../packages/convert",
+      "packageUri": "",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "crypto",
+      "rootUri": "../packages/crypto",
+      "packageUri": "",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "dart_style",
+      "rootUri": "../packages/dart_style",
+      "packageUri": "",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "file",
+      "rootUri": "../packages/file",
+      "packageUri": "",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "fixnum",
+      "rootUri": "../packages/fixnum",
+      "packageUri": "",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "frontend_server_client",
+      "rootUri": "../packages/frontend_server_client",
+      "packageUri": "",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "glob",
+      "rootUri": "../packages/glob",
+      "packageUri": "",
+      "languageVersion": "2.15"
+    },
+    {
+      "name": "graphs",
+      "rootUri": "../packages/graphs",
+      "packageUri": "",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "http_multi_server",
+      "rootUri": "../packages/http_multi_server",
+      "packageUri": "",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "http_parser",
+      "rootUri": "../packages/http_parser",
+      "packageUri": "",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "io",
+      "rootUri": "../packages/io",
+      "packageUri": "",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "js",
+      "rootUri": "../packages/js",
+      "packageUri": "",
+      "languageVersion": "2.16"
+    },
+    {
+      "name": "json_annotation",
+      "rootUri": "../packages/json_annotation",
+      "packageUri": "",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "logging",
+      "rootUri": "../packages/logging",
+      "packageUri": "",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "matcher",
+      "rootUri": "../packages/matcher",
+      "packageUri": "",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "meta",
+      "rootUri": "../packages/meta",
+      "packageUri": "",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "mime",
+      "rootUri": "../packages/mime",
+      "packageUri": "",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "package_config",
+      "rootUri": "../packages/package_config",
+      "packageUri": "",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "path",
+      "rootUri": "../packages/path",
+      "packageUri": "",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "pointycastle",
+      "rootUri": "../packages/pointycastle",
+      "packageUri": "",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "pool",
+      "rootUri": "../packages/pool",
+      "packageUri": "",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "protobuf",
+      "rootUri": "../packages/protobuf",
+      "packageUri": "",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "pub_semver",
+      "rootUri": "../packages/pub_semver",
+      "packageUri": "",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "pubspec_parse",
+      "rootUri": "../packages/pubspec_parse",
+      "packageUri": "",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "scratch_space",
+      "rootUri": "../packages/scratch_space",
+      "packageUri": "",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "shelf",
+      "rootUri": "../packages/shelf",
+      "packageUri": "",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "shelf_web_socket",
+      "rootUri": "../packages/shelf_web_socket",
+      "packageUri": "",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "simple_dart_blue_theme",
+      "rootUri": "../packages/simple_dart_blue_theme",
+      "packageUri": "",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "simple_dart_button",
+      "rootUri": "../packages/simple_dart_button",
+      "packageUri": "",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "simple_dart_checkbox",
+      "rootUri": "../packages/simple_dart_checkbox",
+      "packageUri": "",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "simple_dart_dark_theme",
+      "rootUri": "../packages/simple_dart_dark_theme",
+      "packageUri": "",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "simple_dart_default_theme",
+      "rootUri": "../packages/simple_dart_default_theme",
+      "packageUri": "",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "simple_dart_dialog",
+      "rootUri": "../packages/simple_dart_dialog",
+      "packageUri": "",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "simple_dart_image",
+      "rootUri": "../packages/simple_dart_image",
+      "packageUri": "",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "simple_dart_image_button",
+      "rootUri": "../packages/simple_dart_image_button",
+      "packageUri": "",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "simple_dart_label",
+      "rootUri": "../packages/simple_dart_label",
+      "packageUri": "",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "simple_dart_link",
+      "rootUri": "../packages/simple_dart_link",
+      "packageUri": "",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "simple_dart_load_indicator",
+      "rootUri": "../packages/simple_dart_load_indicator",
+      "packageUri": "",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "simple_dart_modal_controller",
+      "rootUri": "../packages/simple_dart_modal_controller",
+      "packageUri": "",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "simple_dart_multilang_button",
+      "rootUri": "../packages/simple_dart_multilang_button",
+      "packageUri": "",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "simple_dart_multilang_checkbox",
+      "rootUri": "../packages/simple_dart_multilang_checkbox",
+      "packageUri": "",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "simple_dart_multilang_controller",
+      "rootUri": "../packages/simple_dart_multilang_controller",
+      "packageUri": "",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "simple_dart_multilang_file_picker",
+      "rootUri": "../packages/simple_dart_multilang_file_picker",
+      "packageUri": "",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "simple_dart_multilang_form_panel",
+      "rootUri": "../packages/simple_dart_multilang_form_panel",
+      "packageUri": "",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "simple_dart_multilang_headed_dialog",
+      "rootUri": "../packages/simple_dart_multilang_headed_dialog",
+      "packageUri": "",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "simple_dart_multilang_headed_panel",
+      "rootUri": "../packages/simple_dart_multilang_headed_panel",
+      "packageUri": "",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "simple_dart_multilang_image_button",
+      "rootUri": "../packages/simple_dart_multilang_image_button",
+      "packageUri": "",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "simple_dart_multilang_label",
+      "rootUri": "../packages/simple_dart_multilang_label",
+      "packageUri": "",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "simple_dart_multilang_link",
+      "rootUri": "../packages/simple_dart_multilang_link",
+      "packageUri": "",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "simple_dart_multilang_object_table",
+      "rootUri": "../packages/simple_dart_multilang_object_table",
+      "packageUri": "",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "simple_dart_multilang_radio_field",
+      "rootUri": "../packages/simple_dart_multilang_radio_field",
+      "packageUri": "",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "simple_dart_multilang_repository_table",
+      "rootUri": "../packages/simple_dart_multilang_repository_table",
+      "packageUri": "",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "simple_dart_multilang_select_field",
+      "rootUri": "../packages/simple_dart_multilang_select_field",
+      "packageUri": "",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "simple_dart_multilang_table",
+      "rootUri": "../packages/simple_dart_multilang_table",
+      "packageUri": "",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "simple_dart_multilang_tabs_panel",
+      "rootUri": "../packages/simple_dart_multilang_tabs_panel",
+      "packageUri": "",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "simple_dart_object_table",
+      "rootUri": "../packages/simple_dart_object_table",
+      "packageUri": "",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "simple_dart_radio_field",
+      "rootUri": "../packages/simple_dart_radio_field",
+      "packageUri": "",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "simple_dart_repository_table",
+      "rootUri": "../packages/simple_dart_repository_table",
+      "packageUri": "",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "simple_dart_select_field",
+      "rootUri": "../packages/simple_dart_select_field",
+      "packageUri": "",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "simple_dart_starter_multilang",
+      "rootUri": "../packages/simple_dart_starter_multilang",
+      "packageUri": "",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "simple_dart_table",
+      "rootUri": "../packages/simple_dart_table",
+      "packageUri": "",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "simple_dart_tabs_panel",
+      "rootUri": "../packages/simple_dart_tabs_panel",
+      "packageUri": "",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "simple_dart_text_area_field",
+      "rootUri": "../packages/simple_dart_text_area_field",
+      "packageUri": "",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "simple_dart_text_field",
+      "rootUri": "../packages/simple_dart_text_field",
+      "packageUri": "",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "simple_dart_theme_controller",
+      "rootUri": "../packages/simple_dart_theme_controller",
+      "packageUri": "",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "simple_dart_ui_core",
+      "rootUri": "../packages/simple_dart_ui_core",
+      "packageUri": "",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "simple_dart_view_controller",
+      "rootUri": "../packages/simple_dart_view_controller",
+      "packageUri": "",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "source_maps",
+      "rootUri": "../packages/source_maps",
+      "packageUri": "",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "source_span",
+      "rootUri": "../packages/source_span",
+      "packageUri": "",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "stack_trace",
+      "rootUri": "../packages/stack_trace",
+      "packageUri": "",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "stream_channel",
+      "rootUri": "../packages/stream_channel",
+      "packageUri": "",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "stream_transform",
+      "rootUri": "../packages/stream_transform",
+      "packageUri": "",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "string_scanner",
+      "rootUri": "../packages/string_scanner",
+      "packageUri": "",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "term_glyph",
+      "rootUri": "../packages/term_glyph",
+      "packageUri": "",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "timing",
+      "rootUri": "../packages/timing",
+      "packageUri": "",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "typed_data",
+      "rootUri": "../packages/typed_data",
+      "packageUri": "",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "watcher",
+      "rootUri": "../packages/watcher",
+      "packageUri": "",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "web_socket_channel",
+      "rootUri": "../packages/web_socket_channel",
+      "packageUri": "",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "yaml",
+      "rootUri": "../packages/yaml",
+      "packageUri": "",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "simple_dart_showcase_multilang",
+      "rootUri": "../",
+      "packageUri": "packages/simple_dart_showcase_multilang",
+      "languageVersion": "2.18"
+    }
+  ],
+  "generated": "2022-12-23T09:52:42.421934Z",
+  "generator": "pub",
+  "generatorVersion": "2.18.3"
+}
