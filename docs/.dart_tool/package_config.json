@@ -101,7 +101,7 @@
       "name": "checked_yaml",
       "rootUri": "../packages/checked_yaml",
       "packageUri": "",
-      "languageVersion": "2.12"
+      "languageVersion": "2.18"
     },
     {
       "name": "code_builder",
@@ -215,7 +215,7 @@
       "name": "mime",
       "rootUri": "../packages/mime",
       "packageUri": "",
-      "languageVersion": "2.12"
+      "languageVersion": "2.18"
     },
     {
       "name": "package_config",
@@ -512,6 +512,12 @@
       "languageVersion": "2.18"
     },
     {
+      "name": "simple_dart_utils_date_time",
+      "rootUri": "../packages/simple_dart_utils_date_time",
+      "packageUri": "",
+      "languageVersion": "2.18"
+    },
+    {
       "name": "simple_dart_view_controller",
       "rootUri": "../packages/simple_dart_view_controller",
       "packageUri": "",
@@ -596,7 +602,7 @@
       "languageVersion": "2.18"
     }
   ],
-  "generated": "2022-12-23T09:52:42.421934Z",
+  "generated": "2023-01-15T09:48:51.938541Z",
   "generator": "pub",
   "generatorVersion": "2.18.3"
 }
