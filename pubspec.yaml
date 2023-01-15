@@ -26,7 +26,7 @@ dependencies:
   simple_dart_multilang_radio_field: ^0.0.1
   simple_dart_multilang_repository_table: ^0.0.1
   simple_dart_multilang_select_field: ^0.0.1
-  simple_dart_multilang_table: ^0.0.3
+  simple_dart_multilang_table: ^0.0.4
   simple_dart_multilang_tabs_panel: ^0.0.1
   simple_dart_repository_table: ^0.0.1
   simple_dart_starter_multilang: ^0.0.1
