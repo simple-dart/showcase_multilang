@@ -1,6 +1,7 @@
 import 'package:simple_dart_multilang_headed_panel/simple_dart_multilang_headed_panel.dart';
 import 'package:simple_dart_multilang_object_table/simple_dart_multilang_object_table.dart';
 import 'package:simple_dart_starter_multilang/simple_dart_starter_multilang.dart';
+import 'package:simple_dart_table/simple_dart_table.dart';
 
 import '../translations.dart';
 
@@ -25,18 +26,35 @@ class ObjectTableView extends View {
     ]);
   }
 
-  MultilangObjectTable createObjectTable() {
-    final ret = MultilangObjectTable<ObjectTableObj>(objectRowAdapter, selectable: true)
+  MultilangObjectTable<ObjectTableObj> createObjectTable() {
+    final ret = MultilangObjectTable<ObjectTableObj>(objectRowAdapter)
       ..fillContent = true
-      ..createColumn('$lkColumn 1', 100, sortable: true)
-      ..createColumn('$lkColumn 2', 100, sortable: true)
-      ..createColumn('$lkColumn 3', 100, sortable: true);
+      ..initColumns([
+        TableColumnDescr()
+          ..caption = '$lkColumn 1'
+          ..width = 100
+          ..sortable = true,
+        TableColumnDescr()
+          ..caption = '$lkColumn 2'
+          ..width = 100
+          ..sortable = true,
+        TableColumnDescr()
+          ..caption = '$lkColumn 3'
+          ..width = 100
+          ..sortable = true,
+      ])
+      ..checkboxVisible = true
+      ..onSelect.listen((event) {
+        print('Selected: ${event.selected}');
+      });
+    final objects = <ObjectTableObj>[];
     for (var i = 0; i < 100; i++) {
-      ret.createObjectRow(ObjectTableObj()
+      objects.add(ObjectTableObj()
         ..column1 = '$lkValue $i'
         ..column2 = i
         ..column3 = DateTime.now().add(-Duration(days: i)));
     }
+    ret.objects = objects;
     return ret;
   }
 }

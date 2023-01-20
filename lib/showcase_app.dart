@@ -17,10 +17,10 @@ import 'views/file_picker_view.dart';
 import 'views/form_panel_view.dart';
 import 'views/home_view.dart';
 import 'views/image_buttons_view.dart';
+import 'views/loadable_object_table_view.dart';
 import 'views/multilang_table_view.dart';
 import 'views/object_table_view.dart';
 import 'views/radiobutton_view.dart';
-import 'views/repository_table_view.dart';
 import 'views/select_field_view.dart';
 import 'views/tabs_panel_view.dart';
 
@@ -54,7 +54,7 @@ void start() {
     DialogView(),
     SimpleTableView(),
     ObjectTableView(),
-    RepositoryTableView(),
+    LoadableObjectTableView(),
   ]);
   mainWindow.start();
   document.title = multilangController.translate(viewController.homeView.caption);
