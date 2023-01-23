@@ -18,10 +18,10 @@ import 'views/form_panel_view.dart';
 import 'views/home_view.dart';
 import 'views/image_buttons_view.dart';
 import 'views/loadable_object_table_view.dart';
-import 'views/multilang_table_view.dart';
 import 'views/object_table_view.dart';
 import 'views/radiobutton_view.dart';
 import 'views/select_field_view.dart';
+import 'views/table_view.dart';
 import 'views/tabs_panel_view.dart';
 
 MainWindow mainWindow = MainWindow();

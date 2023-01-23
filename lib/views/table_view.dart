@@ -7,8 +7,8 @@ import '../translations.dart';
 
 class SimpleTableView extends View {
   SimpleTableView() {
-    id = 'multilang_table';
-    caption = 'MultilangTable';
+    id = 'table';
+    caption = 'Table';
     fullSize();
     fillContent = true;
     padding = '10px';

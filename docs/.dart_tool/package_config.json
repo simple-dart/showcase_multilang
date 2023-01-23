@@ -23,7 +23,7 @@
       "name": "args",
       "rootUri": "../packages/args",
       "packageUri": "",
-      "languageVersion": "2.12"
+      "languageVersion": "2.18"
     },
     {
       "name": "async",
@@ -191,7 +191,7 @@
       "name": "json_annotation",
       "rootUri": "../packages/json_annotation",
       "packageUri": "",
-      "languageVersion": "2.17"
+      "languageVersion": "2.18"
     },
     {
       "name": "logging",
@@ -563,7 +563,7 @@
       "name": "timing",
       "rootUri": "../packages/timing",
       "packageUri": "",
-      "languageVersion": "2.12"
+      "languageVersion": "2.14"
     },
     {
       "name": "typed_data",
@@ -596,7 +596,7 @@
       "languageVersion": "2.18"
     }
   ],
-  "generated": "2023-01-20T12:23:40.240189Z",
+  "generated": "2023-01-23T16:48:31.112638Z",
   "generator": "pub",
   "generatorVersion": "2.18.3"
 }

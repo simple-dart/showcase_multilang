@@ -1,3 +1,4 @@
+import 'package:simple_dart_multilang_button/simple_dart_multilang_button.dart';
 import 'package:simple_dart_multilang_headed_panel/simple_dart_multilang_headed_panel.dart';
 import 'package:simple_dart_multilang_object_table/simple_dart_multilang_object_table.dart';
 import 'package:simple_dart_starter_multilang/simple_dart_starter_multilang.dart';
@@ -6,6 +7,12 @@ import 'package:simple_dart_table/simple_dart_table.dart';
 import '../translations.dart';
 
 class ObjectTableView extends View {
+  late MultilangObjectTable table;
+
+  MultilangButton resetObjectsButton = MultilangButton()
+    ..langKey = lkResetObjects
+    ..width = '300px';
+
   ObjectTableView() {
     id = 'object_table';
     caption = 'ObjectTable';
@@ -16,11 +23,23 @@ class ObjectTableView extends View {
     fillContent = true;
     fullSize();
     spacing = '10px';
-    final objectTable = createObjectTable();
+    table = createObjectTable();
+    resetObjectsButton.onClick.listen((event) {
+      final objects = <ObjectTableObj>[];
+      for (var i = 0; i < 100; i++) {
+        objects.add(ObjectTableObj()
+          ..column1 = '$lkValue ${i + 1}'
+          ..column2 = i
+          ..column3 = DateTime.now().add(-Duration(days: i)));
+      }
+      table.objects = objects;
+    });
+
     addAll([
       MultilangHeadedPanel()
+        ..vertical = true
         ..langKey = lkMultilangObjectTable
-        ..addContent([objectTable])
+        ..addContent([resetObjectsButton, table])
         ..fillContent = true
         ..fullSize(),
     ]);

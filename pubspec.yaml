@@ -1,6 +1,6 @@
 name: simple_dart_showcase_multilang
 description: showcase using multilang
-version: 0.1.0
+version: 0.1.1
 publish_to: none
 
 platforms:
@@ -23,14 +23,14 @@ dependencies:
   simple_dart_multilang_headed_dialog: ^0.0.1
   simple_dart_multilang_headed_panel: ^0.0.1
   simple_dart_multilang_image_button: ^0.0.1
-  simple_dart_multilang_object_table: ^0.1.0
+  simple_dart_multilang_object_table: ^0.1.1
   simple_dart_multilang_radio_field: ^0.0.1
   simple_dart_multilang_select_field: ^0.0.1
-  simple_dart_multilang_table: ^0.1.0
-  simple_dart_multilang_tabs_panel: ^0.0.1
+  simple_dart_multilang_table: ^0.1.1
+  simple_dart_multilang_tabs_panel: ^0.0.2
   simple_dart_starter_multilang: ^0.0.2
-  simple_dart_table: ^0.1.0
-  simple_dart_tabs_panel: ^0.0.1
+  simple_dart_table: ^0.1.1
+  simple_dart_tabs_panel: ^0.0.2
   simple_dart_text_area_field: ^0.0.1
   simple_dart_text_field: ^0.0.1
 

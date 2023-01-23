@@ -45,6 +45,8 @@ const String lkMultilangObjectTable = '^MultilangObjectTable';
 const String lkLoaded = '^Loaded';
 
 const String lkOption = '^Option';
+const String lkIndeterminate = '^Indeterminate';
+const String lkResetObjects = '^ResetObjects';
 const String lkTab = '^Tab';
 const String lkLazyTab = '^LazyTab';
 const String lkValue = '^Value';
@@ -624,6 +626,32 @@ void loadTranslations() {
       PL: 'Opcja',
       SV: 'Alternativ',
       TR: 'Seçenek',
+    },
+    lkIndeterminate: {
+      EN: 'Indeterminate',
+      ES: 'Indeterminado',
+      PT: 'Indeterminado',
+      RU: 'Неопределенный',
+      FR: 'Indéterminé',
+      DE: 'Unbestimmt',
+      IT: 'Indeterminato',
+      NL: 'Onbepaald',
+      PL: 'Nieokreślony',
+      SV: 'Oklar',
+      TR: 'Belirsiz',
+    },
+    lkResetObjects: {
+      EN: 'Reset Objects',
+      ES: 'Restablecer objetos',
+      PT: 'Redefinir objetos',
+      RU: 'Сбросить объекты',
+      FR: 'Réinitialiser les objets',
+      DE: 'Objekte zurücksetzen',
+      IT: 'Reimposta oggetti',
+      NL: 'Objecten resetten',
+      PL: 'Zresetuj obiekty',
+      SV: 'Återställ objekt',
+      TR: 'Nesneleri sıfırla',
     },
     lkTab: {
       EN: 'Tab',

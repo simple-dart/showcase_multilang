@@ -21,6 +21,9 @@ class CheckboxView extends View {
           ..value = true,
         MultilangCheckbox()..langKey = '$lkOption 2',
         MultilangCheckbox()
+          ..langKey = '$lkIndeterminate'
+          ..isIndeterminate = true,
+        MultilangCheckbox()
           ..langKey = lkDisabled
           ..disabled = true,
       ])
