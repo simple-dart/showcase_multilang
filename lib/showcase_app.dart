@@ -1,11 +1,8 @@
-import 'dart:html';
-
 import 'package:simple_dart_modal_controller/simple_dart_modal_controller.dart';
 import 'package:simple_dart_multilang_controller/simple_dart_multilang_controller.dart';
 import 'package:simple_dart_multilang_label/simple_dart_multilang_label.dart';
 import 'package:simple_dart_starter_multilang/simple_dart_starter_multilang.dart';
 import 'package:simple_dart_theme_controller/simple_dart_theme_controller.dart';
-import 'package:simple_dart_ui_core/simple_dart_ui_core.dart';
 import 'package:simple_dart_view_controller/simple_dart_view_controller.dart';
 
 import 'translations.dart';
@@ -29,17 +26,9 @@ MainWindow mainWindow = MainWindow();
 void start() {
   modalController.init();
   themeController.init(['Default', 'Dark', 'Blue']);
-  final langLabel = MultilangLabel();
-  final themeLabel = MultilangLabel();
-
-  final themePanel = Panel()
-    ..vertical = true
-    ..spacing = '3px'
-    ..padding = '5px'
-    ..addAll([langLabel, mainWindow.langSelect, themeLabel, mainWindow.themeSelect, mainWindow.monospaceCheckbox]);
-
-  mainWindow.navBar.bottomPanel.add(themePanel);
-  multilangController.init([EN, ES, PT, RU, FR, DE, IT, NL, PL, SV, TR]);
+  multilangController.init(
+    [EN, ES, PT, RU, FR, DE, IT, NL, PL, SV, TR],
+  );
   loadTranslations();
   viewController.init(HomeView(), [
     FormPanelView(),
@@ -57,10 +46,10 @@ void start() {
     LoadableObjectTableView(),
   ]);
   mainWindow.start();
-  document.title = multilangController.translate(viewController.homeView.caption);
-  multilangController.onLangChange.listen((currentView) {
-    document.title = multilangController.translate(viewController.homeView.caption);
-  });
-  langLabel.langKey = lkLanguage;
-  themeLabel.langKey = lkTheme;
+  final langLabel = MultilangLabel()..langKey = lkLanguage;
+  final themeLabel = MultilangLabel()..langKey = lkTheme;
+
+  mainWindow.navBar.bottomPanel
+    ..spacing = '3px'
+    ..addAll([langLabel, mainWindow.langSelect, themeLabel, mainWindow.themeSelect, mainWindow.monospaceCheckbox]);
 }
