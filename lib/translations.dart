@@ -11,7 +11,9 @@ const String lkFormPanel = '^FormPanel';
 const String lkCheckboxFields = '^CheckboxFields';
 const String lkDisabled = '^Disabled';
 const String lkSingleOptionSelect = '^SingleOptionSelect';
+const String lkSingleObjectSelect = '^SingleObjectSelect';
 const String lkMultiSelection = '^MultiSelection';
+const String lkMultiObjectSelection = '^MultiObjectSelection';
 const String lkSingleDisabled = '^SingleDisabled';
 const String lkMultiDisabled = '^MultiDisabled';
 const String lkRowLayout = '^RowLayout';
@@ -198,6 +200,19 @@ void loadTranslations() {
       SV: 'Välj en enda option',
       TR: 'Tek Seçenek Seç',
     },
+    lkSingleObjectSelect: {
+      EN: 'Single Object Select',
+      ES: 'Selección de un solo objeto',
+      PT: 'Seleção de um único objeto',
+      RU: 'Выбор одного объекта',
+      FR: 'Sélection d\'un seul objet',
+      DE: 'Einzelobjekt auswählen',
+      IT: 'Seleziona un singolo oggetto',
+      NL: 'Selecteer een enkel object',
+      PL: 'Wybierz pojedynczy obiekt',
+      SV: 'Välj en enda objekt',
+      TR: 'Tek Nesne Seç',
+    },
     lkMultiSelection: {
       EN: 'Multi selection',
       ES: 'Multi selección',
@@ -210,6 +225,19 @@ void loadTranslations() {
       PL: 'Multi wybór',
       SV: 'Multi val',
       TR: 'Çoklu seçim',
+    },
+    lkMultiObjectSelection: {
+      EN: 'Multi Object selection',
+      ES: 'Multi selección de objetos',
+      PT: 'Multi seleção de objetos',
+      RU: 'Множественный выбор объектов',
+      FR: 'Multi sélection d\'objets',
+      DE: 'Multi Objektauswahl',
+      IT: 'Multi selezione oggetti',
+      NL: 'Multi-object selectie',
+      PL: 'Multiwybór obiektów',
+      SV: 'Multi objektval',
+      TR: 'Çoklu Nesne Seçimi',
     },
     lkSingleDisabled: {
       EN: 'Single Disabled Option',

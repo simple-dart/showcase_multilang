@@ -143,7 +143,7 @@
       "name": "fixnum",
       "rootUri": "../packages/fixnum",
       "packageUri": "",
-      "languageVersion": "2.12"
+      "languageVersion": "2.19"
     },
     {
       "name": "frontend_server_client",
@@ -185,7 +185,7 @@
       "name": "js",
       "rootUri": "../packages/js",
       "packageUri": "",
-      "languageVersion": "2.16"
+      "languageVersion": "2.19"
     },
     {
       "name": "json_annotation",
@@ -596,7 +596,7 @@
       "languageVersion": "2.18"
     }
   ],
-  "generated": "2023-02-01T10:13:19.505785Z",
+  "generated": "2023-02-11T11:30:09.807045Z",
   "generator": "pub",
-  "generatorVersion": "2.18.3"
+  "generatorVersion": "2.19.1"
 }
