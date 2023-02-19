@@ -17,37 +17,24 @@ class RadioView extends View {
       MultilangHeadedPanel()
         ..langKey = lkRowLayout
         ..addContent([
-          MultilangRadioField()
-            ..groupName = 'row'
-            ..addRadioButton('opt1', '$lkOption 1')
-            ..addRadioButton('opt2', '$lkOption 2')
-            ..addRadioButton('opt3', '$lkOption 3')
-            ..addRadioButton('opt4', '$lkOption 4')
+          MultilangRadioField('row')..initOptions(['$lkOption 1', '$lkOption 2', '$lkOption 3', '$lkOption 4'])
         ])
         ..width = '300px'
         ..wrap = true,
       MultilangHeadedPanel()
         ..langKey = lkColumnLayout
         ..addContent([
-          MultilangRadioField()
+          MultilangRadioField('vertical')
             ..vertical = true
-            ..groupName = 'vertical'
-            ..addRadioButton('opt1', '$lkOption 1')
-            ..addRadioButton('opt2', '$lkOption 2')
-            ..addRadioButton('opt3', '$lkOption 3')
-            ..addRadioButton('opt4', '$lkOption 4')
+            ..initOptions(['$lkOption 1', '$lkOption 2', '$lkOption 3', '$lkOption 4'])
         ])
         ..width = '300px',
       MultilangHeadedPanel()
         ..langKey = lkDisabled
         ..addContent([
-          MultilangRadioField()
+          MultilangRadioField('disabled')
             ..vertical = true
-            ..groupName = 'vertical'
-            ..addRadioButton('opt1', '$lkOption 1')
-            ..addRadioButton('opt2', '$lkOption 2')
-            ..addRadioButton('opt3', '$lkOption 3')
-            ..addRadioButton('opt4', '$lkOption 4')
+            ..initOptions(['$lkOption 1', '$lkOption 2', '$lkOption 3', '$lkOption 4'])
             ..disabled = true
         ])
         ..width = '300px'

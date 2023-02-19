@@ -64,6 +64,16 @@ input[type="file"] {
     border: none;
 }
 
+optgroup {
+    font-weight: bold;
+    font-style: normal;
+}
+
+option {
+    font-weight: normal;
+    font-style: normal;
+}
+
 textarea {
   border-radius: var(--field-border-radius);
   background-color: rgba(255, 255, 255, 0.5);
@@ -180,7 +190,6 @@ textarea:focus {
 .HeadedDialog {
   border-radius: var(--field-border-radius);
   background-color: var(--primary-panel-color);
-  box-shadow: rgb(32 12 71 / 32%) 0px 0px 32px;
 }
 
 .HeadedDialogHeader{
@@ -191,11 +200,9 @@ textarea:focus {
 
 .HeadedDialogBody{
   color: var(--primary-font-color);
-  background: var(--primary-panel-color);
 }
 
 .ContextMenu {
-  position: absolute;
   display: flex;
   background: var(--primary-panel-color);
   padding: 5px;
@@ -219,6 +226,14 @@ textarea:focus {
 
 .TableRow.Header {
   background-color: rgba(0, 0, 0, 0.15);
+}
+
+.TableRow.Even {
+  background-color: rgba(255, 255, 255, 0.075);
+}
+
+.TableRow.Odd {
+  background-color: rgba(0, 0, 0, 0.075);
 }
 
 .TableCopyButton {
@@ -252,22 +267,26 @@ textarea:focus {
   font-size: 10px;
 }
 
+.HeadedPanel {
+  border-radius: var(--field-border-radius);
+  box-shadow: rgb(32 12 71 / 25%) 0px 0px 8px;
+}
+
 .HeadedPanelHeader{
   color: var(--secondary-font-color);
   background: var(--third-panel-color);
   font-weight: 500;
+  padding: 5px;
 }
 
-.HeadedPanel {
-  border-radius: var(--field-border-radius);
-  background-color: var(--primary-panel-color);
-  box-shadow: rgb(32 12 71 / 32%) 0px 0px 32px;
+.HeadedPanelContent{
+  padding: 5px;
 }
+
 
 .NavBar {
     background: var(--secondary-panel-color);
     color: var(--primary-font-color);
-    box-shadow: rgb(32 12 71 / 32%) 0px 0px 32px;
 }
 
 .NavBarButton {
@@ -276,23 +295,17 @@ textarea:focus {
 }
 
 .NavBarButton:hover {
-    color: var(--button-color-inverted);
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .NavBarButton.Active {
     color: var(--button-color);
 }
 
-.NavBarButton.Active:hover {
-    color: var(--button-color-inverted);
-}
-
 .PathBar{
     background: var(--secondary-panel-color);
     color:  var(--primary-font-color);
     font-weight: 500;
-    box-shadow: rgb(32 12 71 / 32%) 0px 0px 32px;
 }
 
 .PathBarButton{
@@ -309,4 +322,25 @@ textarea:focus {
     color: var(--secondary-font-color);
     text-decoration: none;
     background: var(--third-panel-color);
+}
+
+.Dropdown {
+    border-radius: var(--field-border-radius);
+    border: 1px solid var(--field-border-color);
+    padding: 2px;
+}
+
+.Dropdown:hover {
+    cursor: pointer;
+}
+
+.Dropdown:before {
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 16' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%0A%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E%0A");
+}
+
+.DropdownDropPanel {
+    background-color: var(--primary-panel-color);
+    border: 1px solid var(--field-border-color);
+    border-radius: var(--field-border-radius);
+    color: var(--primary-font-color);
 }

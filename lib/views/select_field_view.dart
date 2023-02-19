@@ -68,10 +68,6 @@ class SelectFieldView extends View {
               SelectableObject('Object 5', '$lkOption 5')
             ])
             ..onValueChange.listen((value) {
-              print('Selected object:');
-              for (final obj in value.newValue) {
-                print(obj.name);
-              }
             })
         ])
         ..width = '300px',
@@ -89,10 +85,6 @@ class SelectFieldView extends View {
               SelectableObject('Object 5', '$lkOption 5')
             ])
             ..onValueChange.listen((value) {
-              print('Selected object:');
-              for (final obj in value.newValue) {
-                print(obj.name);
-              }
             })
         ])
         ..width = '300px',
